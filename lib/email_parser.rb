@@ -11,7 +11,7 @@ def initialize(csv_emails)
 end
 
 def parse
-  csv_emails.split(',').uniq
+  csv_emails.split(/, | \).uniq
 end
 
 
