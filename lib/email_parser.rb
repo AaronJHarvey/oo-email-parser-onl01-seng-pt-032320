@@ -11,10 +11,7 @@ def initialize(csv_emails)
 end
 
 def parse
-  csv_emails.split.collect do |address|
-    address.split(',')
-  end
-  .flatten.uniq
+  csv_emails.split(',').uniq
 end
 
 
