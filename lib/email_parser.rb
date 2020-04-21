@@ -13,7 +13,7 @@ end
 def parse
   csv_emails.split(',').uniq
 end
-end
+
 
 
 end
